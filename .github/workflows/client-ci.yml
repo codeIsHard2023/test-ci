@@ -9,4 +9,4 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
       - name: Goto client and run tests
-        run: cd client && npm i && npm run test
+        run: cd client && npm i && npm test
